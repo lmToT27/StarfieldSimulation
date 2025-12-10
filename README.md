@@ -8,7 +8,7 @@ This document explains in detail the operating mechanism of the Starfield Simula
 
 ## 1. Basic Concepts
 
-Mục tiêu của hiệu ứng này là mô phỏng góc nhìn của một camera đang di chuyển với tốc độ cao xuyên qua một đám mây sao. Thực tế, camera đứng yên, và các ngôi sao di chuyển về phía camera.
+The goal of this effect is to simulate the perspective of a camera moving at high speed through a cloud of stars. In reality, the camera remains stationary, and the stars move towards the camera.
 
 To achieve this, we need:
 
