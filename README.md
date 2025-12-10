@@ -36,9 +36,9 @@ This is the "heart" of the algorithm. To transform 3D coordinates $(x, y, z)$ in
 
 Core Formula:
 
-$$sx = \frac{x}{z} \times FOV + \text{center\_x}$$
+$$sx = \frac{x}{z} \times FOV + center_{x}$$
 
-$$sy = \frac{y}{z} \times FOV + \text{center\_y}$$
+$$sy = \frac{y}{z} \times FOV + center_{y}$$
 
 Parameter Explanation:
 
