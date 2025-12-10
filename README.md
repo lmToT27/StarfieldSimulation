@@ -1,7 +1,7 @@
 # Starfield Simulation: Principles and Algorithms
 
 <p align="center">
-  <b> English </b> &nbsp;|&nbsp; <a href="./README.md">English</a> 
+  <b> English </b> &nbsp;|&nbsp; <a href="./README.vi.md">Tiếng Việt</a> 
 </p>
 
 This document explains in detail the operating mechanism of the Starfield Simulation effect. This is a classic problem in computer graphics used to create a 3D depth illusion on a flat 2D screen.
