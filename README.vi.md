@@ -36,9 +36,9 @@ Quy ước: Trục Z dương hướng vào trong màn hình (xa dần). Khi Z gi
 
 Công thức cốt lõi:
 
-$$sx = \frac{x}{z} \times FOV + \text{center\_x}$$
+$$sx = \frac{x}{z} \times FOV + center_{x}$$
 
-$$sy = \frac{y}{z} \times FOV + \text{center\_y}$$
+$$sy = \frac{y}{z} \times FOV + center_{y}$$
 
 Giải thích tham số:
 

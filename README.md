@@ -1,14 +1,14 @@
 # Starfield Simulation: Principles and Algorithms
 
 <p align="center">
-  <b> English </b> &nbsp;|&nbsp; <a href="./README.md">English</a> 
+  <b> English </b> &nbsp;|&nbsp; <a href="./README.vi.md">Tiếng Việt</a> 
 </p>
 
 This document explains in detail the operating mechanism of the Starfield Simulation effect. This is a classic problem in computer graphics used to create a 3D depth illusion on a flat 2D screen.
 
 ## 1. Basic Concepts
 
-Mục tiêu của hiệu ứng này là mô phỏng góc nhìn của một camera đang di chuyển với tốc độ cao xuyên qua một đám mây sao. Thực tế, camera đứng yên, và các ngôi sao di chuyển về phía camera.
+The goal of this effect is to simulate the perspective of a camera moving at high speed through a cloud of stars. In reality, the camera remains stationary, and the stars move towards the camera.
 
 To achieve this, we need:
 
@@ -36,9 +36,9 @@ This is the "heart" of the algorithm. To transform 3D coordinates $(x, y, z)$ in
 
 Core Formula:
 
-$$sx = \frac{x}{z} \times FOV + \text{center\_x}$$
+$$sx = \frac{x}{z} \times FOV + center_{x}$$
 
-$$sy = \frac{y}{z} \times FOV + \text{center\_y}$$
+$$sy = \frac{y}{z} \times FOV + center_{y}$$
 
 Parameter Explanation:
 
